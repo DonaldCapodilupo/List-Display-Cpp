@@ -34,11 +34,11 @@ string displayList(vector<string> listToDisplay){
         num += 1;
     }
 
-    string userChoice;
+    int userChoice;
 
     cin >> userChoice;
 
-    return userChoice;
+    return listToDisplay.at(userChoice-1);
 
 }
 
